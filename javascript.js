@@ -59,8 +59,10 @@ back.addEventListener('click', event => {
   let backspaced = screen.textContent.slice(0,-1);
   if (backspaced.length == 0) {
     screen.textContent = "0";
+    num1 = screen.textContent;
   } else {
-  screen.textContent = backspaced
+  screen.textContent = backspaced;
+  num1 = screen.textContent;
   }
 });
 
